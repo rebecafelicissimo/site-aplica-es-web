@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --dark-white: #F8F8F8;
+  --light-blue: #3E92CC;
+  --light-red: #D8315B;
+  --dark-blue: #0A2463;
+
+
+}
+
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

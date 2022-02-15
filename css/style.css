@@ -1,0 +1,143 @@
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;  
+  align-items: center;
+  background-color: #3E92CC;
+  height: 6.25rem;
+}
+
+.logo {
+  width: 20%;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.header-links {
+  color: var(--dark-white);
+  font-weight: bold;
+}
+
+.header-links:hover {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+}
+
+.section {
+  margin: 2rem 0 1rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.conteudo {
+  margin: 1rem 0 0.5rem;
+  line-height: 1.5rem;
+}
+
+.card {
+  content: "";
+  background-color: var(--dark-white);
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 3px var(--dark-blue);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3ms;
+  width: 100%;
+  height: auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  content: "";
+  background-color: var(--light-red);
+  width: 80%;
+  height: 100px;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-gerador {
+  width: 80%;
+}
+
+.card-links {
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+.container-contact {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-contact .card-links {
+  font-size: 0.7rem;
+}
+
+footer {
+  background-color: var(--light-blue);
+  padding: 2rem 0;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 0.8rem;
+}
+
+.footer-links {
+  color: var(--dark-white);
+}
+
+footer h4 {
+  color: var(--dark-white);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+span {
+  color: var(--light-red);
+}
+
