@@ -144,3 +144,21 @@ footer h4 {
 span {
   color: var(--light-red);
 }
+
+/*  Política de Cookie e Privacidade */
+.sites {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--light-red);
+}
+
+.conteudo02 {
+  line-height: 1.5rem;
+  color: var(--dark-blue);
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+.center {
+  text-align: center;
+}
