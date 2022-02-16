@@ -1,0 +1,32 @@
+@media (min-width: 650px) {
+  img.logo {
+    width: 12%;
+  }
+
+  nav.main-navigation {
+    justify-content: space-between;
+  }
+
+  ul.header-list {
+    flex-direction: row;
+    gap: 2rem;
+
+  }
+
+  p.conteudo {
+    text-align: center;
+  }
+
+  div.container-aplications , div.container-contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-navigation img.logo {
+    width: 8%;
+  }
+}

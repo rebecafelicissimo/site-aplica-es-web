@@ -7,7 +7,7 @@
 .main-header {
   display: flex;  
   align-items: center;
-  background-color: #3E92CC;
+  background-color: var(--light-blue);
   height: 6.25rem;
 }
 
@@ -73,8 +73,8 @@
   gap: 1.5rem;
   cursor: pointer;
   transition: all 0.3ms;
-  width: 100%;
-  height: auto;
+  width: 220px;
+  height: 200px;
 }
 
 .card:hover {
@@ -110,8 +110,12 @@
   gap: 2rem;
 }
 
+.container-contact .card {
+  height: 120px;
+}
+
 .container-contact .card-links {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 footer {
@@ -140,4 +144,3 @@ footer h4 {
 span {
   color: var(--light-red);
 }
-
