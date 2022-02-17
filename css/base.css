@@ -9,4 +9,5 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
+  scroll-behavior: smooth;
 }
