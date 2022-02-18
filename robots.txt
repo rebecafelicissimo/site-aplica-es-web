@@ -1,0 +1,3 @@
+User-agente: *
+Disallow: https://www.aplicacoesweb.com.br/privaty-policy.html
+Disallow: https://www.aplicacoesweb.com.br/cookies-policy.html
