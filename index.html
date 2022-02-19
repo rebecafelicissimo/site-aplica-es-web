@@ -41,8 +41,8 @@
   </header>
 
   <main class="principal-main">
-    <div class="container">
-      <section class="section" id="about">
+    <section class="section" id="about">
+      <div class="container">
         <h2 class="title">Olá! Seja muito bem - vindo(a) ao Aplicações Web.</h2>
 
         <p class="conteudo">Este site nasceu com o intuito de trazer aplicações simples, mas que serão uma mão na roda quando surgir a necessidade.</p>
@@ -52,23 +52,36 @@
         <p class="conteudo">Para nos ajudar a manter esse projeto colocaremos anúncios do Google AdSense em partes da página, mas nada que tire seu foco.</p>
 
         <p class="conteudo"><b>Espero que gostem.</b></p>
-      </section>
+      </div>
+    </section>
 
       <section class="section aplications" id="aplications">
         <div class="container">
-          <a class="card-links" href="https://geradordesenhas.aplicacoesweb.com.br/">
-            <div class="container-aplications">
-              <div class="card">
-                <div class="card-image"><img class="logo-gerador" src="assets/images/logo-gerador-de-senha.png" alt=""></div>
+          <div class="container-applications">
+            <!-- Gerador de senhas -->
+            <div class="card">
+              <a class="card-links" href="https://geradordesenhas.aplicacoesweb.com.br/">
+                <div class="card-image bg-light-red">
+                  <img class="logo-gerador" src="assets/images/gerador-logo01.png" alt="">
+                </div>
                 <h3 class="subtitle">
                   Gerador de Senhas
                 </h3>
-              </div>
+              </a>              
             </div>
-          </a>
+
+            <!-- Encurtador de links -->
+            <div class="card">
+              <a class="card-links" id="encurtador" onclick="emAndamento()" href="#">
+                <div class="card-image bg-light-blue">
+                  <img src="assets/images/encurtador-logo.png" alt="">
+                </div>
+                <h3 class="subtitle">Encurtador de Links</h3>
+              </a>
+            </div>        
+          </div>
         </div>
-      </section>
-    </div>
+      </section>    
   </main>
 
   <section class="section" id="contact">
@@ -97,5 +110,7 @@
       <h4>Feito com carinho! <span class="heart">❤</span></h4>      
     </div>
 </footer>  
+
+    <script src="scripts.js"></script>
 </body>
 </html>
