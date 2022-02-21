@@ -25,12 +25,12 @@
 .main-header {
   display: flex;  
   align-items: center;
-  background-color: var(--light-blue);
+  background-color: var(--dark-blue);
   height: 6.25rem;
 }
 
 .logo {
-  width: 20%;
+  width: 50%;
 }
 
 .main-navigation {
