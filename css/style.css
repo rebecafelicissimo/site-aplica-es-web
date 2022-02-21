@@ -59,7 +59,7 @@
 }
 
 .section {
-  margin: 2rem 0 1rem;
+  margin-top: 4rem;
 }
 
 .title {
@@ -133,6 +133,28 @@
   font-weight: bold;
 }
 
+  /* article */
+.article .subtitle {
+  line-height: 1.5rem;
+}
+
+.footer-article p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+.footer-article ul li {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.footer-article ul li a {
+  font-size: 0.8rem;
+  color: var(--dark-blue);  
+}
+/* /footer article */
+
 .container-contact {
   margin: 2rem 0;
   display: flex;
@@ -150,7 +172,6 @@
 }
 
 footer {
-  background-color: var(--light-blue);
   padding: 2rem 0;
 }
 
