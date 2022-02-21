@@ -1,6 +1,6 @@
 @media (min-width: 650px) {
   img.logo {
-    width: 12%;
+    width: 30%;
   }
 
   nav.main-navigation {
@@ -40,6 +40,6 @@
 
 @media (min-width: 1024px) {
   .main-navigation img.logo {
-    width: 8%;
+    width: 20%;
   }
 }
