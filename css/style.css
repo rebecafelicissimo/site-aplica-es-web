@@ -133,6 +133,28 @@
   font-weight: bold;
 }
 
+.container-card-linguagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.container-linguagens {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudo-linguagens {
+  margin-bottom: 0.5rem;
+}
+
+.logo-linguagens {
+  width: 100px;
+}
+
   /* article */
 .article .subtitle {
   line-height: 1.5rem;
