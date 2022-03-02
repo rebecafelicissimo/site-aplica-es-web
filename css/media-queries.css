@@ -11,11 +11,7 @@
     flex-direction: row;
     gap: 2rem;
 
-  }
-
-  p.conteudo {
-    text-align: center;
-  }
+  } 
 
   div.container-aplications , div.container-contact {
     display: flex;
