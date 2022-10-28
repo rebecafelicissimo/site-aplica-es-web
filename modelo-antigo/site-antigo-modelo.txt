@@ -1,0 +1,137 @@
+<header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <img class="logo" src="assets/images/logo-aplicacoes-web-01.png" alt="Aplicações web logo">
+        <ul class="header-list">
+          <li class="header-list-item"><a class="header-links" href="#about">quem somos</a></li>
+          <li class="header-list-item"><a class="header-links" href="#aplications">aplicações</a></li>
+          <li class="header-lit-item"><a class="header-links" href="#article">post</a></li>
+          <li class="header-list-item"><a class="header-links" href="#contact">contato</a></li>
+        </ul>        
+      </nav>
+    </div>
+  </header>
+
+  <main class="principal-main">
+    <section class="section" id="about">
+      <div class="container">
+        <h1 class="title">Olá! Seja muito bem - vindo(a) ao Aplicações Web.</h1>
+
+        <p class="conteudo">Este site nasceu com o intuito de trazer aplicações simples, mas que serão uma mão na roda quando surgir a necessidade.</p>
+
+        <p class="conteudo">Nosso objetivo conforme formos evoluindo nos estudos em programação, é trazer mais e mais aplicações web para vocês. 😃</p>
+
+        <!-- <p class="conteudo">Para nos ajudar a manter esse projeto colocaremos anúncios do Google AdSense em partes da página, mas nada que tire seu foco.</p> -->
+
+        <p class="conteudo"><b>Espero que gostem.</b></p>
+      </div>
+    </section>
+
+      <section class="section aplications" id="aplications">
+        <div class="container">
+          <div class="container-applications">
+            <!-- Gerador de senhas -->
+            <div class="container-card-linguagens">
+              <div class="card">
+                <a class="card-links" href="https://geradordesenhas.aplicacoesweb.com.br/">
+                  <div class="card-image bg-light-red">
+                    <img class="logo-gerador" src="assets/images/gerador-logo01.png" alt="gerador de senhas logo">
+                  </div>
+                  <h3 class="subtitle">
+                    Gerador de Senhas
+                  </h3>
+                </a>
+              </div>
+
+              <div class="container-linguagens">
+                <p class="conteudo-linguagens"><b>Desenvolvido de forma pura com:</b></p>
+                <img class="logo-linguagens" src="assets/images/linguagens.png" alt="logo html5, css3 e javascript">
+              </div>
+            </div>
+
+            <!-- Encurtador de links -->
+            <div class="container-card-linguagens">
+              <div class="card">
+                <a class="card-links" id="encurtador" onclick="emAndamento()" href="#">
+                  <div class="card-image bg-light-blue">
+                    <img src="assets/images/encurtador-logo.png" alt="encurtador de links logo">
+                  </div>
+                  <h3 class="subtitle">Encurtador de Links</h3>
+                </a>
+              </div>
+              
+              <div class="container-linguagens">
+                <p class="conteudo-linguagens"><b>Desenvolvido de forma pura com:</b></p>
+                <img class="logo-linguagens" src="assets/images/linguagens.png" alt="logo html5, css3 e javascript">
+              </div>
+            </div>       
+        </div>
+      </section>    
+  </main>
+
+  <section class="section" id="article">
+    <div class="container">
+      <article class="article">
+        <header>
+          <h2 class="title">O que são Aplicações Web?</h2>
+        </header>
+
+        <main>
+          <p class="conteudo">As aplicações web funcionam de forma parecida aos aplicativos tradicionais que temos em nossos celulares, mas com uma diferença básica: são rodados na web, ou seja, no seu navegador de internet, por exemplo: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari e etc. </p>
+
+          <p class="conteudo">As aplicações web não precisam de nenhum tipo de instalação em seu computador ou celular. Podemos dizer que esse tipo de aplicação é processada em um servidor de terceiros.</p>
+
+          <h3 class="subtitle -article">Como funcionam as aplicações web?</h3>
+          <p class="conteudo">Para que as aplicações web funcionem, elas dependem de um servidor web, de solicitações realizadas pelos usuários, do uso de protocolos e métodos (normalmente o HTTP) e da resposta desse protocolo.
+
+          <p class="conteudo">As aplicações devem permitir que vocês (pessoas que querem utilizar a aplicação) consigam fazer uma solicitação e receber algo em resposta. Ou seja, elas precisam mediar essa interação de forma natural, devolvendo o que a pessoa deseja como resultado — alguns exemplos, quando a pessoa pede para abrir uma foto, será enviado uma solicitação ao servidor para abrir essa foto, o servidor recebe, procura a imagem solicitada e devolve (mostrando) a imagem para você. </p>
+          
+          <p class="conteudo">Nesse sentido, o servidor tem por função receber a solicitação do público e devolver uma resposta para a aplicação. A resposta pode ser a abertura de uma nova página, imagens, documentos, entre outros.</p>
+          
+          <p class="conteudo">Outro componente da aplicação web é o protocolo HTTP. Ele é como uma espécie de “linguagem” que determina o padrão pelo qual a solicitação realizada se comunica com o servidor. Porém existem outros tipos de protocolos além do HTTP.</p>
+
+          <p class="conteudo">Nós do Aplicações Web utilizamos o serviço de hospedagem do Netlify, e eles possuem seus servidores que quando você clica em um de nossos serviços, como por exemplo o Gerador de Senhas, é feito uma requisição para os servidores do Netlify para que ele tragam a página do gerador de senhas para que você possa utilizá-lo. Bem legal né?!😉</p>
+        </main>
+
+        <footer class="footer-article">
+        <nav class="nav-article">
+          <p><b>Espero que tenham gostado desse artigo sobre aplicações web. Tentamos trazer de forma simples e rápida um conhecimento novo e divertido.</b> 🤗</p>
+            <ul>
+              <li>Fontes utilizadas:</li>
+              <li><a href="https://blog.betrybe.com/desenvolvimento-web/aplicacoes-web/" target="_blank">Blog da Trybe</a></li>
+              <li><a href="https://tegra.com.br/aplicacoes-web/" target="_blank">Tegra</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </article>      
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="title">Entre em contato com a gente se precisar de alguma coisa.</h2>
+      <div class="container-contact">
+        <div class="card">
+          <img src="assets/images/email-vermelho.png" alt="e-mail logo">
+          <p><a class="card-links" href="mailto:contato.aplicacoesweb@gmail.com">contato.aplicacoesweb@gmail.com</a></p>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/instagram.png" alt="instagram logo">
+          <p><a class="card-links" href="https://www.instagram.com/aplicacoesweb/">@aplicacoesweb</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section bg-light-blue">
+    <div class="container">
+      <div class="container-footer">
+          <a class="footer-links" href="privacy-policy.html">Política de Privacidade</a>
+          <a class="footer-links" href="cookies-policy.html">Política de Cookies</a>
+      </div>
+      <h4>Feito com carinho! <span class="heart">❤</span></h4>      
+    </div>
+</footer>  
+
+  <script src="scripts.js"></script>
